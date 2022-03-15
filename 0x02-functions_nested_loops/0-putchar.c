@@ -1,12 +1,23 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- *
- * Return: On success1.
+ * Main - print out main car by char.
+ * Description: uses the main header file
+ * that containsthe function _putchar
+ * Return: 0.
  */
-
-int _putchar(char c)
+int main(void)
 {
-return (write(1, $c, 1));
+char str[] = "putchar";
+int i;
+
+i = 0;
+while (str[i])
+{
+_putchar(str[i]);
+++i;
+}
+_putchar(str[i]);
+
+return (0);
 }
