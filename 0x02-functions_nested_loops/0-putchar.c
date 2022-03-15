@@ -6,7 +6,7 @@
  * that containsthe function _putchar
  * Return: 0.
  */
-int main(void)
+int main()
 {
 char str[] = "putchar";
 int i;
