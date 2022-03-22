@@ -1,4 +1,11 @@
-int _putcher(char c)
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * O
+ */
+int _putcher(char c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
